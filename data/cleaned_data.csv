@@ -1,0 +1,56 @@
+Specimen,DNA?,,locality,haplotype,SL(mm),sex,fifth_fourth_ratio,pelvic_length,membrane_length,branches,jaw_eye
+ROM 92305,no,,Papua New Guinea,east,17.9,male,0.79,3.5,0.75,2,anterior margin of pupil
+ROM 92305,no,,Papua New Guinea,east,14.5,male,0.50,4,0.75,2,anterior margin of pupil
+ROM 92305,no,,Papua New Guinea,east,14.3,male,0.50,,0.75,,anterior margin of pupil
+ROM 92309,no,,Papua New Guinea,east,16.2,female,0.50,3.5,0.75,2,middle of pupil
+ROM 92309,no,,Papua New Guinea,east,17.6,male,,,,,middle of pupil
+ROM 84482,no,,Palau,west,17.9,male,0.50,4.1,0.50,6,middle of pupil (see picture)
+ROM 92322,no,,Papua New Guinea,east,16.5,female,0.50,5.1,0.75,2,anterior margin of pupil
+ROM 92322,no,,Papua New Guinea,east,12.2,male,0.38,3.8,0.33,3,anterior margin of pupil
+ROM 84498,no,,Palau,west,17.8,female,0.46,4.9,0.50,6,middle of pupil
+ROM 74922 A,no,,Palau,west,13.9,male,0.46,4.6,0.50,4,middle of pupil
+ROM 74922 B,no,,Palau,west,14.1,male,0.50,4.4,0.50,3,
+ROM 74922 C,no,,Palau,west,16,male,0.50,4.6,0.50,2,anterior margin of pupil
+ROM 74922 D,no,,Palau,west,14.4,male,0.50,4.6,0.50,2,anterior margin of pupil
+ROM 74922 E,no,,Palau,west,14.1,male,0.33,4.7,0.50,4,middle of pupil
+ROM 74922 F,no,,Palau,west,17.8,female,0.38,4.5,0.50,4,anterior margin of pupil
+ROM 74922 G,no,,Palau,west,14.9,male,0.44,4.5,0.50,4,anterior margin of pupil 
+ROM 74922 H,no,,Palau,west,13.5,male,0.47,4.3,0.50,6,anterior margin of pupil
+ROM 74922 I,no,,Palau,west,14.2,female,0.40,4.3,0.50,3,middle of pupil
+ROM 74922 J,no,,Palau,west,14.4,male,0.32,3.7,0.33,3,anterior margin of pupil
+ROM 92298,no,,Papua New Guinea,east,11.5,male,,,,,anterior margin of pupil
+ROM 88226 A,no,,Palau,west,12,?female,0.48,4,0.50,4,anterior margin of pupil
+ROM 88226 B,no,,Palau,west,11.3,?female,0.19,3.7,0.50,4,anterior margin of pupil
+ROM 88226 C,no,,Palau,west,16.5,female,0.45,4.7,0.50,5,middle of pupil
+ROM 88226 D,no,,Palau,west,9.9,?male,0.38,2.9,0.50,2,anterior margin of pupil
+ROM 88226 E,no,,Palau,west,11.4,male,,,,,anterior margin of pupil
+ROM 88226 F,no,,Palau,west,14.3,male,0.49,4.1,0.50,3,anterior margin of pupil
+ROM 88226 G,no,,Palau,west,13.7,female,0.33,4.5,0.33,3,anterior margin of pupil
+ROM 88226 H,no,,Palau,west,14,female,0.38,4,0.33,2,anterior margin of pupil
+ROM 88226 I,no,,Palau,west,11.9,male,0.24,3.8,0.33,3,anterior margin of pupil
+ROM 88226 J,no,,Palau,west,11.9,female,0.34,3.5,0.33,4,anterior margin of pupil
+ROM 88226 K,no,,Palau,west,12.6,male,0.34,4.1,0.33,4,anterior margin of pupil
+ROM 88226 L,no,,Palau,west,11.3,female,,,,,anterior margin of pupil
+ROM 88226 M,no,,Palau,west,11.7,male,0.32,3.7,0.33,3,anterior margin of pupil
+ROM 88226 N,no,,Palau,west,10.5,male,,,,,anterior margin of pupil
+ROM 92314,no,,Papua New Guinea,east,13.9,female,0.29,4.2,0.33,2,anterior margin of pupil
+ROM 92314,no,,Papua New Guinea,east,17,female,,,0.33,3,anterior margin of pupil
+ROM 92291,no,,Papua New Guinea,east,16,male,0.43,4.2,0.50,2,anterior margin of pupil
+WAM P34290,EA1,"Lawidi, Milne Bay",Papua New Guinea,east,14.6,female,0.44,4.3,0.33,4,anterior margin of pupil
+WAM P34290,EA2,"Lawidi, Milne Bay",Papua New Guinea,east,12.4,male,0.24,3.8,0.33,3,anterior margin of pupil
+MVE 16-060,EA13,Yandina,Solomons,east,N,female,,,,,middle of pupil
+MVE 16-060,EA14,Yandina,Solomons,east,broken,female,,,,,anterior margin of pupil
+(no number) 1,no,"Lawadi, Milne Bay",Papua New Guinea,east,15.1,female,0.53,4.5,0.33,3,anterior margin of pupil
+(no number) 2,no,"Lawadi, Milne Bay",Papua New Guinea,east,19.2,male,0.49,4.9,0.75,6,anterior margin of pupil
+(no number) 3,no,"Lawadi, Milne Bay",Papua New Guinea,east,17.3,male,0.44,5,0.75,4,anterior margin of pupil
+(no number) 4,no,"Lawadi, Milne Bay",Papua New Guinea,east,12,male,0.42,3.8,0.75,2,anterior margin of pupil
+(no number) 5,no,"Lawadi, Milne Bay",Papua New Guinea,east,17.2,male,0.39,5.4,,5,middle of pupil
+(no number) 6,no,"Lawadi, Milne Bay",Papua New Guinea,east,13.8,female,0.39,3.8,0.75,3,anterior margin of pupil
+Eviota cf. nigrispina,CN1,"Kwatisore, Cendrawasih",Papua,west,11.3,female,,4.8,0.33,6,anterior margin of pupil
+Eviota cf. nigrispina,CN2,"Kwatisore, Cendrawasih",Papua,west,11.6,female,0.36,3.6,0.33,6,middle of pupil
+Eviota cf. nigrispina,CN3,"Kwatisore, Cendrawasih",Papua,west,7,,,,,,anterior margin of pupil
+(no number) 7,EA8,Nankivelle,Brunei,west,9.5,,0.44,2.7,,2,anterior margin of pupil
+MVE 17-019,EA15,"Kwatisore, Cendrawasih",Papua,west,12.1,female,0.26,3.4,0.75,4,anterior margin of pupil
+MVE 17-019,EA16,"Kwatisore, Cendrawasih",Papua,west,12.7,female,0.45,3.3,0.75,3,anterior margin of pupil
+(no number) 8,EA9,Aluji Bay,Raja Ampat,west,13,female,0.33,3.3,0.75,5,anterior margin of pupil
+(no number) 10,EA10,Aluji Bay,Raja Ampat,west,13.4,female,0.49,3.7,0.75,3,anterior margin of pupil
