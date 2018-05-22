@@ -12,3 +12,6 @@ these data sets contain some overlapping information. the major columns of data 
 Question: 
 Are there any visible morphological differences between the two haplotypes of E. atriventris? How can we display these lack of differences in a visually pleasing way?
 
+I will explore these questions with histograms of the morphological data separated by the 2 geographic types, and then explore further from there.
+
+A PCA to explore multiple characters at once is a good idea. 
