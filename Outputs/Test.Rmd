@@ -1,0 +1,71 @@
+---
+title: "*Eviota atriventris*"
+output: html_document
+---
+
+Here is an analysis of characters morphological characters from *E. atriventris*. We attempt to compare morphologies from two geographic localities. Western populations were sampled primarily from Palau and Indonesia, while Eastern populations are primarily sampled from the Solomon Islands and Papua New Guinea. Phenotypic differences between the two suggest some level of divergence, so we attempt to find out if this is supported by other morphological and meristic characters. 
+
+My morphological analysis showed that only pelvic fin characteristics were variable, so I analysed four pelvic fin characters in the two color morphs.
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+#morphology data file for basic comparison analysis
+morph <- read.csv("../data/cleaned_data.csv")
+
+```
+
+##Branches
+Here is a a histogram of all branch data of the 4th pevic ray.
+```{r, echo = FALSE, message=FALSE, warning = FALSE}
+ggplot(data = morph) +
+  geom_histogram(mapping = aes(x=branches)) +
+  xlab("Number of branches on 4th pelvic ray") +
+  theme_classic(base_family = 'Arial', base_size = 10)
+```
+
+There is not a normal distribution but we will proceed with the analysis anyway. We would like to see the difference in 4th ray branch number in populations from Palau vs Papua New Guinea. 
+
+```{r, echo= FALSE, message= FALSE, warning= FALSE}
+#make a subset of data with just information from palau and png
+Palau_PNG <- morph %>%
+  filter(locality == "Papua New Guinea" | locality == "Palau")
+
+#histogram
+ggplot(data = Palau_PNG) +
+  geom_histogram(binwidth = 0.5, mapping = aes(x = branches, fill = locality), show.legend = FALSE) +
+  facet_wrap(~locality) +
+  xlab("No. branches on 4th pelvic ray") +
+  theme_classic(base_family = 'Arial', base_size = 10)
+```
+
+There doesnt appear to be any difference between the palau and papua new guinea branch number.
+If we include *E. atriventris* from localities around the Indopacific, not just Palau and Papua New Guinea, would we see a difference?
+
+This histogram compares populations from the Eastern localities compared with the western localities. 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+ggplot(data = morph) +
+  geom_histogram(binwidth = 0.5, mapping = aes(x = branches, fill = haplotype), show.legend = FALSE) +
+  facet_wrap(~haplotype) +
+  xlab("No. branches on 4th pelvic ray") +
+  theme_classic(base_family = 'Arial', base_size = 10)
+```
+
+Despite a larger sample size from the both eastern and western localities, I see no difference. 
+We will use a t test to further analyse the differences in number of branches in each population. 
+
+```{r, echo = FALSE}
+#extract east & western haplotype data
+west <- filter(morph, haplotype == "west")
+east <- filter(morph, haplotype == "east")
+t.test(west$branches, east$branches)
+```
+
+An insignificant p value (>0.05) suggests no difference, which is consistant with what we observe in the branch histograms.
+
+##Other pelvic characters
+we will attempt to use other pelvic characters to figure out if there will be differences based on other pelvic characters.
+
+  
+  
