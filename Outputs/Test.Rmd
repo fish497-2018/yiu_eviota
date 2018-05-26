@@ -12,7 +12,7 @@ My morphological analysis showed that only pelvic fin characteristics were varia
 library(tidyverse)
 #morphology data file for basic comparison analysis
 morph <- read.csv("../data/cleaned_data.csv")
-
+some_data <- read.csv("../data/morphology_numerical_data3.csv")
 ```
 
 ##Branches
@@ -64,9 +64,12 @@ t.test(west$branches, east$branches)
 
 An insignificant p value (>0.05) suggests no difference, which is consistant with what we observe in the branch histograms.
 
-##Other pelvic characters
+##Other pelvic fin characters
 we will attempt to use other pelvic characters to figure out if there will be differences based on other pelvic characters.
-
-
+Here is a table of all characters.
+```{r, echo = FALSE}
+knitr::kable(morph, caption = "Pelvic fin morpholgy")
+```
   
+  Using this data, we 
   
