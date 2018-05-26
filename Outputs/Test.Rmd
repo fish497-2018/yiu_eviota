@@ -71,5 +71,45 @@ Here is a table of all characters.
 knitr::kable(morph, caption = "Pelvic fin morpholgy")
 ```
   
-  Using this data, we 
+  Using this data, we constructed a Principal Component analysis to look for any sign of grouping by population. 
+  
+  This table of loadings values displays the values of each character represented on each axis of the pca plot.
+  
+```{r, echo = FALSE}
+traits <- some_data %>% 
+  select(fifth_fourth_ratio, pelvic_ratio, fin_membrane, branches)
+
+pca2 <- princomp(traits, cor=T)
+loadings (pca2)
+```
+
+This PCA plot vaguely shows number of branches on the vertical axis and pelvic fin length, membrane length,  and fifth ray length on the x axis. 
+It confirms that there is complete overlap and no difference in the morphology between the two populations of *E. atriventris*. 
+```{r, echo= FALSE}
+
+# plot
+plot(pca2$scores[,1], pca2$scores[,2],
+     cex = 1.5, 
+     col = ifelse(some_data$haplotype == 1, 'tomato', 'maroon4'), 
+     pch=20, 
+     xlab="PC 1", ylab="PC 2", xlim=c(-2.5,5), ylim= c(-2.5,3),
+     cex.axis = 0.7,
+     xaxs ="i", yaxs = "i", 
+     pin=c(16, 9), 
+     bty="l") #take away borders
+
+legend(x="top", 
+       cex=0.8, xpd = T , horiz=T, pch=c(20), 
+       col=c("tomato", "maroon4"), 
+       legend = c("Eastern white-bellied morph", "Western black-bellied morph"),
+       bty = "n")
+
+#western haplotype = 1 = maroon4
+#eastern haplotype = 2 = tomato
+```
+
+This is interesting in light of the drastic difference in mitochondrial DNA and coloration that we observe in Eviota. 
+
+
+
   
