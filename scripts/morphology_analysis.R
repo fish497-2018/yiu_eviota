@@ -29,16 +29,26 @@ ggplot(data = morph) +
   xlab("No. branches on 4th pelvic ray") +
   theme_classic(base_family = 'Arial', base_size = 10)
 
+#make column in morph for pelvic ratio
+#morph2 <- morph %>% 
+  #mutate(pelvic_ratio == (pelvic_length/SL.mm.))
+
 
 #extract east & western haplotype data
 west <- filter(morph, haplotype == "west")
 east <- filter(morph, haplotype == "east")
 
 #compare characters from eastern and western haplotypes with a t tests - suggests no difference between populations
+
 t.test(west$branches, east$branches)
 t.test(west$fifth_fourth_ratio, east$fifth_fourth_ratio)
 t.test(west$membrane_length, east$membrane_length)
 
+west2 <- filter(some_data, haplotype == "1")
+head(west2)
+east2 <- filter(some_data, haplotype == "2")
+
+t.test(west2$pelvic_ratio, east2$pelvic_ratio)
 
 
 #read in morphology data file where stuff has been deleted
